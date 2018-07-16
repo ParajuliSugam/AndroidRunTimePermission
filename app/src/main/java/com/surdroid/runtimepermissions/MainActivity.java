@@ -31,13 +31,13 @@ import com.google.android.gms.location.LocationSettingsStatusCodes;
 public class MainActivity extends AppCompatActivity {
 
 
-    static final Integer LOCATION = 0x1;
-    static final Integer CALL = 0x2;
-    static final Integer WRITE_EXST = 0x3;
-    static final Integer READ_EXST = 0x4;
-    static final Integer CAMERA = 0x5;
-    static final Integer ACCOUNTS = 0x6;
-    static final Integer GPS_SETTINGS = 0x7;
+    static final Integer LOCATION = 1;
+    static final Integer CALL = 2;
+    static final Integer WRITE_EXST = 3;
+    static final Integer READ_EXST = 4;
+    static final Integer CAMERA = 5;
+    static final Integer ACCOUNTS = 6;
+    static final Integer GPS_SETTINGS = 7;
 
     static final String TAG = "MainActivity";
     GoogleApiClient client;
